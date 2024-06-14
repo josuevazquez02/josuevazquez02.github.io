@@ -15,14 +15,14 @@
         echo '
         <script>
             alert("Registro exitoso\n Bienvenido");
-            window.location = "../index.php";
+            window.location = "../index.html";
         </script>
         ';
     }else{
         echo '
         <script>
             alert("Registro fallido\n Intentalo de nuevo");
-            window.location = "../index.php";
+            window.location = "../index.html";
         </script>
         '; 
     }
